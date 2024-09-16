@@ -27,10 +27,10 @@ qrs hcqngr_tybony():
     tybony_inevnoyr += 10
 
 sbe v va enatr(5):
-    crvag(v)
+    cevag(v)
     v += 1
 
-vs zl_frg vf abg Abbar naq zl_qvpg['xrl4'] == 10:
+vs zl_frg vf abg Abar naq zl_qvpg['xrl4'] == 10:
     cevag("Pbaqvgvba zrg!")
 
 vs 5 abg va zl_qvpg:
@@ -39,4 +39,3 @@ vs 5 abg va zl_qvpg:
 cevag(tybony_inevnoyr)
 cevag(zl_qvpg)
 cevag(zl_frg)
-
