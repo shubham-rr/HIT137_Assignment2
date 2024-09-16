@@ -11,7 +11,7 @@ if generated_number % 2 == 0:
 print(f"Generated Number: {generated_number}")
 
 # Step 2: Load the image and modify the pixel values
-image_path = 'C:/Users/Phuc/Desktop/Assign2 SoftwareNow/chapter1.jpg'
+image_path = 'Question 2/chapter1.jpg'
 image = Image.open(image_path)
 pixels = image.load()
 
@@ -21,7 +21,7 @@ for i in range(image.width):
         pixels[i, j] = (r + generated_number, g + generated_number, b + generated_number)
 
 # Step 3: Save the modified image
-output_image_path = 'C:/Users/Phuc/Desktop/Assign2 SoftwareNow/chapter1_1.jpg'
+output_image_path = 'Question 2/chapter1out.png'
 image.save(output_image_path)
 
 # Step 4: Calculate the sum of all red pixel values in the new image
