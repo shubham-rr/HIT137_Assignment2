@@ -31,13 +31,17 @@ def update_global():
     global global_variable
     global_variable += 10
 
-# Corrected the typo 'peint' to 'print'
+# update_global() is defined but never called
+
+# i += 1 in the for loop does not affect the loop's iteration
+# and won't change the value of i 
 for i in range(5):
     print(i)
-    i += 1
+    # removed i += 1
 
-# Corrected 'Noone' to 'None'
-if my_set is not None and my_dict['key4'] == 10:
+# my_dict['key4'] will return an error if the key does not exist
+# replacing it with my_dict.get('key4') will return None if the key doesn't exist
+if my_set is not None and my_dict.get('key4') == 10:
     print("Condition met!")
 
 if 5 not in my_dict:

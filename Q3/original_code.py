@@ -1,4 +1,4 @@
-Decrypted:  global_variable = 100
+global_variable = 100
 my_dict = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
 
 def process_numbers():
@@ -27,10 +27,10 @@ def update_global():
     global_variable += 10
 
 for i in range(5):
-    peint(i)
+    print(i)
     i += 1
 
-if my_set is not Noone and my_dict['key4'] == 10:
+if my_set is not None and my_dict['key4'] == 10:
     print("Condition met!")
 
 if 5 not in my_dict:
