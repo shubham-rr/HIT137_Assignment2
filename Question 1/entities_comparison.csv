@@ -1,0 +1,234 @@
+Model,Entity,Count,Label
+SciSpacy,history,1,ENTITY
+SciSpacy,illness,1,ENTITY
+SciSpacy,hepc,1,ENTITY
+SciSpacy,cirrhosis,1,ENTITY
+SciSpacy,esophageal varices portal gastropathy,1,ENTITY
+SciSpacy,coffee,2,ENTITY
+SciSpacy,ground emesis,2,ENTITY
+SciSpacy,days,2,ENTITY
+SciSpacy,usoh,1,ENTITY
+SciSpacy,pta,1,ENTITY
+SciSpacy,intermittent,1,ENTITY
+SciSpacy,nausea,1,ENTITY
+SciSpacy,episode tarry,1,ENTITY
+SciSpacy,black stool morning admission,1,ENTITY
+SciSpacy,denies,1,ENTITY
+SciSpacy,hematemesis,1,ENTITY
+SciSpacy,brbpr,1,ENTITY
+SciSpacy,abdominal pain fever chills,1,ENTITY
+SciSpacy,abdominal girth denies,1,ENTITY
+SciSpacy,drinking medication,1,ENTITY
+SciSpacy,compliance,1,ENTITY
+SciSpacy,reports,1,ENTITY
+SciSpacy,pain times,1,ENTITY
+SciSpacy,day,1,ENTITY
+SciSpacy,vitals,1,ENTITY
+SciSpacy,protonix,1,ENTITY
+SciSpacy,octreotide drip,1,ENTITY
+SciSpacy,brown stool rectal exam,1,ENTITY
+SciSpacy,liver fellow,1,ENTITY
+SciSpacy,variceal bleed,1,ENTITY
+SciSpacy,work infection tube,1,ENTITY
+SciSpacy,patient,1,ENTITY
+SciSpacy,abdominal ultrasound done,1,ENTITY
+SciSpacy,patent portal vein scant,1,ENTITY
+SciSpacy,ascites,1,ENTITY
+SciSpacy,transferred micu,1,ENTITY
+SciSpacy,hemodynamic,1,ENTITY
+SciSpacy,monitoring,1,ENTITY
+SciSpacy,micu,1,ENTITY
+SciSpacy,prbc hct,1,ENTITY
+SciSpacy,norepinephrine gtt,1,ENTITY
+SciSpacy,stabilized,1,ENTITY
+SciSpacy,transfer floor,1,ENTITY
+SciSpacy,feels,1,ENTITY
+SciSpacy,bloody bms,1,ENTITY
+SciSpacy,medical historypertinent,1,ENTITY
+SciSpacy,admission,1,ENTITY
+SciSpacy,blood,2,ENTITY
+SciSpacy,monos eos,1,ENTITY
+SciSpacy,blood glucose,2,ENTITY
+SciSpacy,urean,2,ENTITY
+SciSpacy,creat,2,ENTITY
+SciSpacy,angap,2,ENTITY
+SciSpacy,blood alt ast,1,ENTITY
+SciSpacy,totbili,1,ENTITY
+SciSpacy,blood calcium,2,ENTITY
+SciSpacy,discharge blood,1,ENTITY
+SciSpacy,plt blood,1,ENTITY
+SciSpacy,blood alt ast alkphos totbili,1,ENTITY
+SciSpacy,labs,1,ENTITY
+SciSpacy,blood ctropnt,1,ENTITY
+SciSpacy,blood indx,1,ENTITY
+SciSpacy,ctropnt,1,ENTITY
+SciSpacy,blood lipase,1,ENTITY
+SciSpacy,urine urine,1,ENTITY
+SciSpacy,urine blood nitrite,1,ENTITY
+SciSpacy,protein neg,1,ENTITY
+SciSpacy,glucose neg,1,ENTITY
+SciSpacy,ketone,1,ENTITY
+SciSpacy,bilirub,1,ENTITY
+SciSpacy,urobiln,1,ENTITY
+SciSpacy,leuks,1,ENTITY
+SciSpacy,neg,1,ENTITY
+SciSpacy,urine rbc,1,ENTITY
+SciSpacy,yeast,1,ENTITY
+SciSpacy,microbiology,1,ENTITY
+SciSpacy,urine cultures,1,ENTITY
+SciSpacy,negative,1,ENTITY
+SciSpacy,serum antibody negative,1,ENTITY
+SciSpacy,cardiology,1,ENTITY
+SciSpacy,left atrium,1,ENTITY
+SciSpacy,dilated,1,ENTITY
+SciSpacy,normal left ventricular systolic function,1,ENTITY
+SciSpacy,aortic stenosis,1,ENTITY
+SciSpacy,aortic regurgitation,1,ENTITY
+SciSpacy,mitral valve leaflets mildly,1,ENTITY
+SciSpacy BC5CDR,cirrhosis grade esophageal varices portal gastropathy,1,DISEASE
+SciSpacy BC5CDR,nausea episodes,1,DISEASE
+SciSpacy BC5CDR,emesis,2,DISEASE
+SciSpacy BC5CDR,tarry,1,DISEASE
+SciSpacy BC5CDR,lightheadedness,1,DISEASE
+SciSpacy BC5CDR,abdominal pain fever chills,1,DISEASE
+SciSpacy BC5CDR,pain,1,DISEASE
+SciSpacy BC5CDR,variceal bleed,1,DISEASE
+SciSpacy BC5CDR,infection,1,DISEASE
+SciSpacy BC5CDR,ascites,1,DISEASE
+SciSpacy BC5CDR,tarry bloody,1,DISEASE
+SciSpacy BC5CDR,aortic stenosis,1,DISEASE
+SciSpacy BC5CDR,aortic regurgitation,1,DISEASE
+BioBERT,history,2,Drug
+BioBERT,present,2,Drug
+BioBERT,illness,1,Drug
+BioBERT,known,1,Drug
+BioBERT,last,3,Drug
+BioBERT,grade,1,Drug
+BioBERT,var,2,Drug
+BioBERT,portal,2,Drug
+BioBERT,gas,1,Drug
+BioBERT,coffee,2,Drug
+BioBERT,ground,2,Disease
+BioBERT,days,2,Drug
+BioBERT,began,1,Disease
+BioBERT,experiencing,1,Drug
+BioBERT,intermittent,1,Drug
+BioBERT,nausea,1,Drug
+BioBERT,episodes,1,Drug
+BioBERT,episode,1,Drug
+BioBERT,black,1,Drug
+BioBERT,stool,2,Drug
+BioBERT,morning,1,Drug
+BioBERT,admission,2,Drug
+BioBERT,reports,2,Drug
+BioBERT,light,1,Drug
+BioBERT,new,1,Drug
+BioBERT,denies,3,Drug
+BioBERT,hem,3,Drug
+BioBERT,abdominal,3,Drug
+BioBERT,pain,1,Disease
+BioBERT,fever,1,Drug
+BioBERT,chill,1,Drug
+BioBERT,significant,1,Drug
+BioBERT,increases,1,Drug
+BioBERT,drinking,1,Drug
+BioBERT,medication,1,Drug
+BioBERT,non,1,Drug
+BioBERT,compliance,1,Disease
+BioBERT,also,1,Disease
+BioBERT,taking,1,Drug
+BioBERT,nap,1,Drug
+BioBERT,back,1,Drug
+BioBERT,pain,1,Drug
+BioBERT,times,1,Disease
+BioBERT,day,1,Drug
+BioBERT,recent,1,Drug
+BioBERT,past,2,Drug
+BioBERT,vital,1,Drug
+BioBERT,given,2,Drug
+BioBERT,pro,1,Drug
+BioBERT,started,1,Disease
+BioBERT,positive,1,Drug
+BioBERT,brown,1,Drug
+BioBERT,exam,1,Drug
+BioBERT,seen,2,Drug
+BioBERT,liver,1,Drug
+BioBERT,fellow,1,Drug
+BioBERT,felt,1,Disease
+BioBERT,unlikely,1,Disease
+BioBERT,bleed,1,Drug
+BioBERT,recommended,1,Drug
+BioBERT,work,1,Drug
+BioBERT,infection,1,Drug
+BioBERT,tube,1,Drug
+BioBERT,attempted,1,Drug
+BioBERT,however,1,Drug
+BioBERT,patient,1,Drug
+BioBERT,unable,1,Drug
+BioBERT,tolerate,1,Drug
+BioBERT,ultra,1,Drug
+BioBERT,done,1,Drug
+BioBERT,showed,1,Drug
+BioBERT,patent,1,Drug
+BioBERT,vein,1,Drug
+BioBERT,scan,1,Drug
+BioBERT,enough,1,Drug
+BioBERT,tap,1,Drug
+BioBERT,dropped,1,Drug
+BioBERT,transferred,1,Drug
+BioBERT,monitoring,1,Drug
+BioBERT,bumped,1,Drug
+BioBERT,started,1,Drug
+BioBERT,hours,1,Drug
+BioBERT,stab,1,Drug
+BioBERT,transfer,1,Drug
+BioBERT,floor,1,Drug
+BioBERT,remains,1,Drug
+BioBERT,stable,1,Drug
+BioBERT,feels,1,Drug
+BioBERT,good,1,Drug
+BioBERT,bloody,1,Disease
+BioBERT,medical,1,Drug
+BioBERT,results,1,Drug
+BioBERT,labs,3,Drug
+BioBERT,blood,16,Drug
+BioBERT,mon,1,Drug
+BioBERT,glucose,3,Drug
+BioBERT,calcium,2,Drug
+BioBERT,discharge,1,Drug
+BioBERT,lip,1,Drug
+BioBERT,urine,5,Drug
+BioBERT,color,1,Drug
+BioBERT,yellow,1,Drug
+BioBERT,appear,1,Drug
+BioBERT,clear,1,Drug
+BioBERT,name,1,Drug
+BioBERT,protein,1,Drug
+BioBERT,none,1,Drug
+BioBERT,yeast,1,Drug
+BioBERT,none,1,Disease
+BioBERT,micro,1,Drug
+BioBERT,cultures,1,Disease
+BioBERT,negative,2,Drug
+BioBERT,serum,1,Drug
+BioBERT,anti,1,Drug
+BioBERT,card,1,Drug
+BioBERT,conclusions,1,Drug
+BioBERT,left,3,Drug
+BioBERT,vent,3,Drug
+BioBERT,wall,2,Drug
+BioBERT,thickness,1,Drug
+BioBERT,cavity,1,Drug
+BioBERT,size,1,Drug
+BioBERT,normal,2,Drug
+BioBERT,function,1,Drug
+BioBERT,right,1,Drug
+BioBERT,chamber,1,Drug
+BioBERT,size,1,Disease
+BioBERT,free,1,Drug
+BioBERT,motion,1,Drug
+BioBERT,valve,2,Drug
+BioBERT,leaf,2,Drug
+BioBERT,mildly,2,Drug
+BioBERT,thick,2,Drug
+BioBERT,mit,1,Drug

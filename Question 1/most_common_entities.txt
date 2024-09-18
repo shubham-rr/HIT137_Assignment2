@@ -1,0 +1,82 @@
+Total entities detected by SciSpacy: 95
+Total entities detected by SciSpacy BC5CDR: 14
+Total entities detected by BioBERT: 190
+
+Most common entities detected by SciSpacy:
+Entity: ('coffee', 'ENTITY'), Count: 2
+Entity: ('ground emesis', 'ENTITY'), Count: 2
+Entity: ('days', 'ENTITY'), Count: 2
+Entity: ('blood', 'ENTITY'), Count: 2
+Entity: ('blood glucose', 'ENTITY'), Count: 2
+Entity: ('urean', 'ENTITY'), Count: 2
+Entity: ('creat', 'ENTITY'), Count: 2
+Entity: ('angap', 'ENTITY'), Count: 2
+Entity: ('blood calcium', 'ENTITY'), Count: 2
+Entity: ('history', 'ENTITY'), Count: 1
+Entity: ('illness', 'ENTITY'), Count: 1
+Entity: ('hepc', 'ENTITY'), Count: 1
+Entity: ('cirrhosis', 'ENTITY'), Count: 1
+Entity: ('esophageal varices portal gastropathy', 'ENTITY'), Count: 1
+Entity: ('usoh', 'ENTITY'), Count: 1
+Entity: ('pta', 'ENTITY'), Count: 1
+Entity: ('intermittent', 'ENTITY'), Count: 1
+Entity: ('nausea', 'ENTITY'), Count: 1
+Entity: ('episode tarry', 'ENTITY'), Count: 1
+Entity: ('black stool morning admission', 'ENTITY'), Count: 1
+Entity: ('denies', 'ENTITY'), Count: 1
+Entity: ('hematemesis', 'ENTITY'), Count: 1
+Entity: ('brbpr', 'ENTITY'), Count: 1
+Entity: ('abdominal pain fever chills', 'ENTITY'), Count: 1
+Entity: ('abdominal girth denies', 'ENTITY'), Count: 1
+Entity: ('drinking medication', 'ENTITY'), Count: 1
+Entity: ('compliance', 'ENTITY'), Count: 1
+Entity: ('reports', 'ENTITY'), Count: 1
+Entity: ('pain times', 'ENTITY'), Count: 1
+Entity: ('day', 'ENTITY'), Count: 1
+
+Most common entities detected by SciSpacy BC5CDR:
+Entity: ('emesis', 'DISEASE'), Count: 2
+Entity: ('cirrhosis grade esophageal varices portal gastropathy', 'DISEASE'), Count: 1
+Entity: ('nausea episodes', 'DISEASE'), Count: 1
+Entity: ('tarry', 'DISEASE'), Count: 1
+Entity: ('lightheadedness', 'DISEASE'), Count: 1
+Entity: ('abdominal pain fever chills', 'DISEASE'), Count: 1
+Entity: ('pain', 'DISEASE'), Count: 1
+Entity: ('variceal bleed', 'DISEASE'), Count: 1
+Entity: ('infection', 'DISEASE'), Count: 1
+Entity: ('ascites', 'DISEASE'), Count: 1
+Entity: ('tarry bloody', 'DISEASE'), Count: 1
+Entity: ('aortic stenosis', 'DISEASE'), Count: 1
+Entity: ('aortic regurgitation', 'DISEASE'), Count: 1
+
+Most common entities detected by BioBERT:
+Entity: ('blood', 'Drug'), Count: 16
+Entity: ('urine', 'Drug'), Count: 5
+Entity: ('last', 'Drug'), Count: 3
+Entity: ('denies', 'Drug'), Count: 3
+Entity: ('hem', 'Drug'), Count: 3
+Entity: ('abdominal', 'Drug'), Count: 3
+Entity: ('labs', 'Drug'), Count: 3
+Entity: ('glucose', 'Drug'), Count: 3
+Entity: ('left', 'Drug'), Count: 3
+Entity: ('vent', 'Drug'), Count: 3
+Entity: ('history', 'Drug'), Count: 2
+Entity: ('present', 'Drug'), Count: 2
+Entity: ('var', 'Drug'), Count: 2
+Entity: ('portal', 'Drug'), Count: 2
+Entity: ('coffee', 'Drug'), Count: 2
+Entity: ('ground', 'Disease'), Count: 2
+Entity: ('days', 'Drug'), Count: 2
+Entity: ('stool', 'Drug'), Count: 2
+Entity: ('admission', 'Drug'), Count: 2
+Entity: ('reports', 'Drug'), Count: 2
+Entity: ('past', 'Drug'), Count: 2
+Entity: ('given', 'Drug'), Count: 2
+Entity: ('seen', 'Drug'), Count: 2
+Entity: ('calcium', 'Drug'), Count: 2
+Entity: ('negative', 'Drug'), Count: 2
+Entity: ('wall', 'Drug'), Count: 2
+Entity: ('normal', 'Drug'), Count: 2
+Entity: ('valve', 'Drug'), Count: 2
+Entity: ('leaf', 'Drug'), Count: 2
+Entity: ('mildly', 'Drug'), Count: 2
