@@ -138,3 +138,35 @@ label_mapping = {
     'LABEL_0': 'Disease',
     'LABEL_1': 'Drug' 
 }
+
+# --------------------------------------------------
+# Prepare Data for CSV
+# --------------------------------------------------
+
+data_to_write = []
+
+# Aggregate entities for SciSpacy
+for (entity, label), count in agg_sci_spacy.items():
+    data_to_write.append({'Model': 'SciSpacy', 'Entity': entity, 'Count': count, 'Label': label})
+
+# Aggregate entities for SciSpacy BC5CDR
+for (entity, label), count in agg_sci_spacy_bc5cdr.items():
+    data_to_write.append({'Model': 'SciSpacy BC5CDR', 'Entity': entity, 'Count': count, 'Label': label})
+
+# Aggregate entities for BioBERT
+for (entity, label), count in agg_biobert.items():
+    data_to_write.append({'Model': 'BioBERT', 'Entity': entity, 'Count': count, 'Label': label})
+
+# --------------------------------------------------
+# Write to CSV
+# --------------------------------------------------
+
+with open(output_file, 'w', newline='') as csvfile:
+    fieldnames = ['Model', 'Entity', 'Count', 'Label']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    
+    writer.writeheader()
+    for row in data_to_write:
+        writer.writerow(row)
+
+print(f"Results have been saved to {output_file}")
