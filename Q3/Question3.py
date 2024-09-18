@@ -87,7 +87,7 @@ def decrypt(encrypted_text, key):
 
 
 # Read encrypted text provided in the image
-with open("Q3/encrypted_text.txt", "r") as file:
+with open("Question 3/encrypted_text.txt", "r") as file:
     encrypted_code = file.read()
 
 # Decrypt the provided text with the key
@@ -99,5 +99,5 @@ decrypted_code = decrypt(
 print("Decrypted: ", decrypted_code)  # print decrypted code for debugging
 
 # save decrypted code as original_code.py
-with open("Q3/original_code.py", "w") as file:
+with open("Question 3/original_code.py", "w") as file:
     file.write(decrypted_code)
