@@ -55,3 +55,4 @@ def brute_force_decrypt(ciphered_quote):
 
 ciphered_quote = "VZ FRYSVFU VZCNGVRAG NAQ N YVGGYR VAFRPHER V ZNXR ZVFGNXRF V NZ BHG BS PBAGEBY NAQNG GVZRF UNEQ GB UNAQYR OHG VS LBH PNAG UNAQYR ZR NG ZL JBEFG GURA LBH FHER NF URYYQBAG QRFREIR ZR NG ZL ORFG ZNEVYLA ZBAEBR"
 brute_force_decrypt(ciphered_quote)
+# Based on the output, the right key shift value is 13.
