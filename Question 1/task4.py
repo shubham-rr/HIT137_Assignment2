@@ -68,3 +68,61 @@ def extract_entities_spacy(text, model, entity_labels):
     doc = model(text) # en_core_sci_sm(text)
     entities = [(ent.text, ent.label_) for ent in doc.ents if ent.label_ in entity_labels]
     return entities
+
+# Function to extract entities using BioBERT
+def extract_entities_biobert(text, valid_medical_labels):
+    entities = []
+    results = nlp_biobert(text)
+    # print("Raw BioBERT results:", results)
+    for entity in results:
+        if not entity['word'].startswith('##') and len(entity['word']) > 2 and entity['word'].lower() not in stop_words:
+            # print(f"Entity before mapping: {entity['word']} with raw label {entity['entity']}")
+            # Map label
+            label = label_mapping.get(entity['entity'], 'Unknown')
+            # print(f"Mapped label: {label}")
+            if label.upper() in valid_medical_labels:
+                entities.append((entity['word'], label))
+    return entities
+
+# Function to filter medical terms
+def filter_medical_terms(entities, valid_labels):
+    return [(entity, label) for entity, label in entities if label in valid_labels]
+
+# Function to count entities
+def count_entities(entities):
+    return Counter([ent[0] for ent in entities])
+
+# Function to aggregate entity counts
+def aggregate_entity_counts(entities_list):
+    aggregated_counts = defaultdict(int)
+    for entity, label in entities_list:
+        aggregated_counts[(entity, label)] += 1
+    return aggregated_counts
+
+# --------------------------------------------------
+# Main Processing
+# --------------------------------------------------
+
+# Read and process the text file
+try:
+    with open(file_path, "r") as file:
+        text = file.read()
+except FileNotFoundError:
+    print(f"File not found: {file_path}")
+    # Handle the error
+
+# Clean and chunk the text
+cleaned_text = clean_text(text)
+chunked_texts = chunk_text(cleaned_text, tokenizer)
+
+
+# Define entity labels
+entity_labels_sci_spacy = ['ENTITY']
+entity_labels_sci_spacy_bc5cdr = ['DISEASE', 'DRUG']
+entity_labels_biobert = ['LABEL_0', 'LABEL_1']
+valid_medical_labels = entity_labels_sci_spacy_bc5cdr
+
+label_mapping = {
+    'LABEL_0': 'Disease',
+    'LABEL_1': 'Drug' 
+}
