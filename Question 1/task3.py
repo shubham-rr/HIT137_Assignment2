@@ -37,10 +37,14 @@ def save_to_csv(data, file_name, headers):
 ## TASK 3.1
 # Read and clean the text file
 
-with open(file_path, "r") as f:
-    text = f.read()
-filtered_words = clean_text(text)
+try:
+    with open(file_path, "r") as f:
+        text = f.read()
+except FileNotFoundError:
+    print(f"File not found: {file_path}")
+    # Handle the error
 
+filtered_words = clean_text(text)
 # Count occurrences of filtered words
 
 word_counts = Counter(filtered_words)
