@@ -99,6 +99,18 @@ def aggregate_entity_counts(entities_list):
         aggregated_counts[(entity, label)] += 1
     return aggregated_counts
 
+# Function to calculate total entities
+def calculate_total_entities(entity_counts):
+    return sum(entity_counts.values())
+ 
+# Function to map entity names to their details
+def create_entity_map(entities_set):
+    return {entity[0]: {'entity': entity[0], 'label': entity[1]} for entity in entities_set}
+ 
+# Function to get the most common entities
+def get_most_common_entities(entities_count, top_n=30):
+    return entities_count.most_common(top_n)
+
 # --------------------------------------------------
 # Main Processing
 # --------------------------------------------------
